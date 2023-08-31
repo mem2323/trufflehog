@@ -1,8 +1,6 @@
 syntax = "proto3";
 
-package detectors;
-
-option go_package = "github.com/trufflesecurity/trufflehog/v3/pkg/pb/detectorspb";
+package detect
 
 enum DecoderType {
   UNKNOWN = 0;
